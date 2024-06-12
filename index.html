@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Replacement Algorithms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="head">Page Replacement Algorithm</div>
+        <div class="inputsection">
+          <div class="frmdiv dd">
+            <label for="noofframes" id="high">Number of Frames: </label>
+            <input type="text" value="3" class="noofframes" class="base" />
+          </div>
+          <div class="algodiv dd">
+            <label for="pagereplacementalgo" id="high"
+              >Page Replacement Algorithm:
+            </label>
+            <select name="pagereplacementalgo" id="pra">
+              <option value="FIFO" class="base">
+                First In First Out(FIFO)
+              </option>
+              <option value="LRU" class="base">Least Recently Used(LRU)</option>
+              <option value="LFU" class="base">Least Frequently Used(LFU)</option>
+              <option value="OPT" class="base">Optimal(OPT)</option>
+              <option value="NRU" class="base">Not Recently Used(NRU)</option>
+            </select>
+          </div>
+          <div class="summarydiv">
+            <label for="Summary" id="high">Generate Summary: </label>
+            <input type="checkbox" name="Summary" id="Summary" checked />
+          </div>
+          <div class="refdiv dd">
+            <label for="references" id="high">References: </label>
+            <input
+              type="text"
+              id="references"
+              value="7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1"
+              class="base"
+            />
+          </div>
+          <div class="btndiv">
+            <button onclick="pushData()">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="output">Output</div>
+        <div class="solution">
+          <div class="part1"></div>
+          <div class="part2">
+            <h2>Output will be generated here</h2>
+            <br />
+            <h2>Fill the input form and click the submit button</h2>
+          </div>
+
+          <div class="part3"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
