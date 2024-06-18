@@ -1,2 +1,2 @@
 # Page replacement simulatior
-# (https://pagereplacementalgorithm.vercel.app)
+# https://pagereplacementalgorithm.vercel.app
